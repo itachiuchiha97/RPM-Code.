@@ -1,3 +1,7 @@
+const double SPF = 5.15; // 3.6 * 0.228 * 2 * PI --- For 18" O.D. Tyres.
+unsigned long ti = 0;
+long wspeed = 0;
+
 long wheelspeed(unsigned long ti)
 {
     unsigned long totaltime = 0;
